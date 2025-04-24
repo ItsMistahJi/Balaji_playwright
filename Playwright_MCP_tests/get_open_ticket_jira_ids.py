@@ -9,7 +9,7 @@ def get_open_ticket_jira_ids():
         page = context.new_page()
 
         # Navigate to the specified URL
-        url = "https://ccp.sys.comcast.net/secure/Dashboard.jspa?selectPageId=87997#"
+        url = "https://JIRA/secure/Dashboard.jspa"
         page.goto(url)
 
         # Take a screenshot of the page
