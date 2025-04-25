@@ -1,6 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 from typing import List
 import uv
+import sys
 
 # In-memory mock database with 20 leave days to start
 employee_leaves = {
